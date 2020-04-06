@@ -1,0 +1,26 @@
+body {
+  display: grid;
+  background: coral;
+  text-align: center;
+  padding: 11px;
+  font-size: 1.2em;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+hr {
+  margin: 1.2em 0;
+}
+
+input, button {
+  font-size: 1.2rem;
+}
+
+input {
+  width: 40%;
+  margin: 0 20px;
+}
